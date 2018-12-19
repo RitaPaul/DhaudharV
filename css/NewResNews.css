@@ -1,0 +1,120 @@
+﻿@media screen and (min-width:480px) {
+
+    #setNavigation {
+        display: flex;
+        min-height: 100vh;
+        border: #110635 solid 1px;
+    }
+
+    #Navigation {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 200px;
+        margin-top: 0;
+    }
+    .flip a {
+        font-size: 1em;
+    }
+
+       
+    .panel1 {
+        text-align: left;
+    }
+        .panel1 a {
+             font-size: 0.900em;
+            /*font-weight: 600;*/
+        }
+
+            .panel1 a:hover {
+                font-size: 0.975em;
+                 }
+    #newsContent {
+        display: flex;
+        align-items: stretch;
+        margin-top: 0;
+    }
+    .newsAdv {
+        display: block;
+    }
+    } 
+
+@media screen and (min-width:768px) {
+
+    #setNavigation {
+        display: flex;
+        min-height: 100vh;
+        border: #110635 solid 1px;
+        
+    }
+
+    #Navigation {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 200px;
+        margin-top: 0;
+    }
+    .flip a {
+        font-size: 1.10em;
+    }
+
+    .panel1 {
+        text-align: left;
+    }
+        .panel1 a {
+            font-size: 0.975em;
+            /*font-weight: 600;*/
+        }
+
+            .panel1 a:hover {
+                font-size: 1.10em;
+            }
+    #newsContent {
+        display: flex;
+        align-items: stretch;
+        margin-top: 0;
+    }
+} 
+
+@media screen and (min-width:1024px) {
+    #setNavigation {
+        display: flex;
+        min-height: 100vh;
+        border: #110635 solid 1px;
+    }
+
+    #Navigation {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+     }
+    .flip a {
+        font-size: 1.10em;
+    }
+
+    .panel1 {
+        text-align: left;
+        margin-top: 0;
+    }
+        .panel1 a {
+            font-size: 0.975em;
+            /*font-weight: 600;*/
+        }
+
+            .panel1 a:hover {
+                font-size: 1.10em;
+            }
+    .newsAdv{
+        height: 300px;
+        border: 1px solid red;
+        text-align: left;
+        margin-top: 10px;
+        
+    }
+
+    #newsContent {
+        display: flex;
+        align-items: stretch;
+        margin-top: 0;
+    }
+} 
+

@@ -1,0 +1,515 @@
+﻿@media screen and (min-width:480px) {
+    
+    #setPlace {
+        float: left;
+        border: 1px solid #110635;
+       }
+
+    #placeNav {
+        width: 40%;
+        height: 100%;
+        border-top: none;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1em;
+    }
+        .PlaceHeading a:hover {
+            text-decoration: none;
+            font-weight: 900;
+            color: white;
+        }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        text-align: left;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 0.775em;
+        color: black;
+        margin-left: 0;
+    }
+        .PlaceHeading .PlaceItems a:hover {
+            font-size: 0.800em;
+            color: black;
+            font-weight: 600;
+        }
+    #placeDetail {
+        width: 60%;
+        float: left;
+        margin: 0;
+        border-left: 1px solid #110635;
+        border-right: none;
+        border-bottom: none;
+        border-top: none;
+
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+        border: none;
+        
+    }
+
+    #RightAdv {
+        display: none;
+    }
+}
+
+@media screen and (min-width:560px) {
+    #setPlace {
+        float: left;
+        border: 1px solid #110635;
+     }
+
+    #placeNav {
+        width: 40%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', Times, serif;
+        font-size: 1em;
+        
+    }
+        .PlaceHeading a:hover {
+            text-decoration: none;
+            font-weight: 900;
+            color: white;
+        }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 0.875em;
+        color: black;
+        margin-left: 0;
+        text-align: left;
+        font-weight: 900;
+        margin: 2px 0;
+    }
+        .PlaceHeading .PlaceItems a:hover {
+            font-size: 0.925em;
+            color: black;
+            font-weight: 900;
+        }
+    #placeDetail {
+        width: 60%;
+        float: left;
+        margin: auto;
+        border-left: 1px solid #110635;
+        border-bottom: none;
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+    }
+
+    #RightAdv {
+        display: none;
+    }
+}
+
+@media screen and (min-width:660px) {
+   
+    #placeNav {
+        width: 35%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1em;
+    }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 0.875em;
+        color: black;
+        margin-left: 0;
+    }
+    .PlaceHeading a:hover {
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+    }
+    .PlaceHeading .PlaceItems a:hover {
+        font-size: 0.925em;
+        color: black;
+        font-weight: 900;
+    }
+
+    #placeDetail {
+        width: 65%;
+        float: left;
+        margin: auto;
+        
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+     }
+
+    #RightAdv {
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) {
+  
+    #placeNav {
+        width: 25%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1em;
+    }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 0.875em;
+        color: black;
+        margin-left: 0;
+    }
+    .PlaceHeading a:hover {
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+    }
+
+    .PlaceHeading .PlaceItems a:hover {
+        font-size: 0.925em;
+        color: black;
+        font-weight: 900;
+    }
+    #placeDetail {
+        width: 55%;
+        float: left;
+        margin: auto;
+        border-right: 1px solid #110635;
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+    }
+
+    #RightAdv {
+        float: right;
+        width: 20%;
+        display: block;
+        
+    }
+}
+
+@media screen and (min-width:840px) {
+    
+    #placeNav {
+        width: 25%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1em;
+    }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 0.875em;
+        color: black;
+        margin-left: 0;
+    }
+
+    .PlaceHeading a:hover {
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+    }
+
+    .PlaceHeading .PlaceItems a:hover {
+        font-size: 0.925em;
+        color: black;
+        font-weight: 900;
+    }
+
+    #placeDetail {
+        width: 55%;
+        float: left;
+        margin: auto;
+     }
+
+    .Places {
+        width: 100%;
+        float: left;
+    }
+
+    #RightAdv {
+        float: right;
+        width: 20%;
+        display: block;
+    }
+}
+
+@media screen and (min-width:960px) {
+     #placeNav {
+        width: 25%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1em;
+    }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 0.875em;
+        color: black;
+        margin-left: 0;
+    }
+    .PlaceHeading a:hover {
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+    }
+
+    .PlaceHeading .PlaceItems a:hover {
+        font-size: 0.925em;
+        color: black;
+        font-weight: 900;
+    }
+    #placeDetail {
+        width: 55%;
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+    }
+
+    #RightAdv {
+        float: right;
+        width: 20%;
+        display: block;
+    }
+}
+
+@media screen and (min-width:1024px) {
+ #placeNav {
+        width: 20%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1em;
+    }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 0.875em;
+        color: black;
+        margin-left: 0;
+    }
+    .PlaceHeading a:hover {
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+    }
+
+    .PlaceHeading .PlaceItems a:hover {
+        font-size: 0.925em;
+        color: black;
+        font-weight: 900;
+    }
+    #placeDetail {
+        width: 60%;
+        float: left;
+        margin: auto;
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+    }
+
+    #RightAdv {
+        float: right;
+        width: 20%;
+        display: block;
+    }
+}
+
+@media screen and (min-width:1140px) {
+
+    #placeNav {
+        width: 20%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1em;
+    }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 1em;
+        margin-left: 0;
+    }
+    .PlaceHeading a:hover {
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+    }
+
+    .PlaceHeading .PlaceItems a:hover {
+        font-size: 1.10em;
+        color: black;
+        font-weight: 900;
+    }
+    #placeDetail {
+        width: 60%;
+        float: left;
+        margin: auto;
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+    }
+
+    #RightAdv {
+        float: right;
+        width: 20%;
+        display: block;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    #setPlace {
+        float: left;
+        border: 1px solid #110635;
+      
+    }
+
+    #placeNav {
+        width: 18%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1.10em;
+    }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 1em;
+        margin-left: 0;
+        color: black;
+    }
+    .PlaceHeading a:hover {
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+        
+    }
+
+    .PlaceHeading .PlaceItems a:hover {
+        font-size: 1.10em;
+        color: black;
+        font-weight: 900;
+        }
+    #placeDetail {
+        width: 62%;
+        float: left;
+        margin: auto;
+        border-left: 1px solid #110635;
+        border-right: 1px solid #110635;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+    }
+
+    #RightAdv {
+        float: right;
+        width: 20%;
+        display: block;
+        border: none;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #setPlace {
+        float: left;
+        border: 1px solid #110635;
+       }
+
+    #placeNav {
+        float: left;
+        width: 18%;
+    }
+
+    .PlaceHeading a {
+        display: block;
+        font-family: 'Lato', serif;
+        font-size: 1.120em;
+    }
+
+    .PlaceHeading .PlaceItems a {
+        display: block;
+        font-family: 'IBM Plex Serif', serif;
+        font-size: 1em;
+        margin-left: 0;
+    }
+    .PlaceHeading a:hover {
+        text-decoration: none;
+        font-weight: 900;
+        color: white;
+    }
+
+    .PlaceHeading .PlaceItems a:hover {
+        font-size: 1.080em;
+        color: black;
+        font-weight: 900;
+    }
+    #placeDetail {
+        width: 62%;
+        float: left;
+        margin: auto;
+        border-left: 1px solid #110635;
+        border-right: 1px solid #110635;
+    }
+
+    .Places {
+        width: 100%;
+        float: left;
+     
+    }
+
+    #RightAdv {
+        float: right;
+        width: 20%;
+        display: block;
+        border: none;
+    }
+}

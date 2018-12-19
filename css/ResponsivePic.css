@@ -1,0 +1,51 @@
+﻿
+@media screen and (min-width:480px) {
+    .PicNav {
+        margin: 4px 1.500% 2px 1.500%;
+    }
+    .PictureFrame {
+        width: 22%;
+        margin: 4px 1.500% 2px 1.500%;
+    }
+}
+@media screen and (min-width:768px) {
+    .PicNav {
+        margin: 4px 1.500% 2px 1.500%;
+    }
+    .PictureFrame {
+        width: 17%;
+        margin: 4px 1.500% 2px 1.500%;
+    }
+
+}
+@media screen and (min-width:1024px){
+    .PicNav {
+        margin: 4px 1.333% 2px 1.333%;
+    }
+    .PictureFrame {
+        width: 14%;
+        margin: 4px 1.333% 2px 1.333%;
+    }
+ }
+/*@media screen and (min-width:1024px){
+    .MainContainer{
+        width: 100%;
+        min-height: 100vh;
+    }
+    .SectionPlaceImages {
+        width: 100%;
+        min-height: 100vh;
+        border: 2px solid blue;
+        display: block;
+    }
+    .PictureFrame {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 1px dotted red;
+        float: left;
+    }
+    .PictureFrame img{
+        width: 100%;
+    }
+}*/

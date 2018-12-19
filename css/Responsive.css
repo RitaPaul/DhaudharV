@@ -1,0 +1,29 @@
+﻿@media screen and (min-width: 660px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+
+    .Thought {
+        width: 48%;
+        float: left;
+        margin: 1%;
+     }
+
+
+
+}
+@media screen and (min-width: 1024px) {
+    /* Hide captions */
+   
+    .carousel-caption {
+        display: none;
+    }
+
+    .Thought {
+        width: 31.333%;
+        float: left;
+        margin: 1%;
+    }
+
+}
